@@ -6,15 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     { id: 3, title: "Pamflet Produk", gambar: "../asset/images/product3.svg" },
     { id: 4, title: "Paket Merdeka", gambar: "../asset/images/product4.svg" },
     { id: 5, title: "Design Lanyard", gambar: "../asset/images/product5.png" },
-    { id: 3, title: "Pamflet Produk", gambar: "../asset/images/product3.svg" },
-    { id: 4, title: "Paket Merdeka", gambar: "../asset/images/product4.svg" },
-    { id: 1, title: "Online Shop", gambar: "../asset/images/product1.png" },
-    { id: 2, title: "ID Card Bisnis", gambar: "../asset/images/product2.svg" },
-    { id: 3, title: "Pamflet Produk", gambar: "../asset/images/product3.svg" },
-    { id: 4, title: "Paket Merdeka", gambar: "../asset/images/product4.svg" },
-    { id: 5, title: "Design Lanyard", gambar: "../asset/images/product5.png" },
-    { id: 3, title: "Pamflet Produk", gambar: "../asset/images/product3.svg" },
-    { id: 4, title: "Paket Merdeka", gambar: "../asset/images/product4.svg" },
+    { id: 3, title: "Pamflet Produk", gambar: "../asset/images/product6.svg" },
+    { id: 4, title: "ID Card Karyawan", gambar: "../asset/images/product7.svg" },
   ];
 
   displayEvent(dummyData);
