@@ -30,7 +30,7 @@ class footer extends HTMLElement {
      <footer>
       <p>
         &copy; 2025 PixelNet by Pixel Studio Team. Hak Cipta Dilindungi.
-        <a href="component/page/privacy.html">Privacy Policy</a>
+        <a href="../../public/privacy.html">Privacy Policy</a>
       </p>
     </footer>
     `;

@@ -30,14 +30,14 @@ body {
 }
 
 .name h2 {
-    font-size: 2rem;
-    color: white;
+  font-size: 2rem;
+  color: white;
 }
 
 .title {
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight:600;
+  font-weight: 600;
   font-style: normal;
   font-size: clamp(1.5rem, 5.5vw, 3.5rem);
   display: flex;
@@ -63,3 +63,75 @@ body {
   font-size: clamp(1rem, 2vw, 1.2rem);
 }
 
+.whatsapp-float {
+  position: fixed; /* supaya tetap diam */
+  width: 60px;
+  height: 60px;
+  bottom: 50%; /* jarak dari bawah layar */
+  right: 20px; /* jarak dari kanan layar */
+  background-color: #25d366;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000; /* biar nggak ketimpa elemen lain */
+  transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-float img {
+  width: 35px;
+  height: 35px;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 2px;
+    padding: 5px;
+  }
+
+  .product-card {
+    background: #ffffffff;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-image {
+    background: #ffffffff;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+  }
+
+  .card-footer {
+    background: #d3b700ff;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  .product-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+  }
+}
