@@ -3,33 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PixelNet Studio - Home</title>
+    <title>Wekly Scout Chalengge</title>
+
+    <!-- SWEETALERT -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- MY STYLE -->
     <link rel="stylesheet" href="asset/css/style.css" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/e732216f12.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- LOGO TITLE -->
+    <link rel="icon" href="/asset/images/icon.png" width="300px" />
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="logo">PixelNet Studio</div>
-        <ul class="nav-links">
-          <li><a href="index.html">Beranda</a></li>
-          <li><a href="about.html">Tentang</a></li>
-          <li><a href="portfolio.html">Portofolio</a></li>
-          <li><a href="contact.html">Kontak</a></li>
-        </ul>
-      </nav>
-    </header>
+    <!-- HTML CUSTOM -->
+    <my-header></my-header>
+    <section class="hero">
+      <div class="name">
+        <div class="title">
+          <h1 class="pix">Pixel</h1>
+          <h1 class="net">Net</h1>
+          <h1 class="stu">Studio</h1>
+        </div>
+        <p>
+          Penuhi kebutuhan digital bisnis bersama kami, sistem & design yang
+          modern untuk bisnis prefesional mu, bersama kami desain bisnis impian
+          mu dengan teknologi terbaik
+        </p>
+      </div>
+      <img src="asset/images/pixelnetid.svg" alt="Person" />
+    </section>
 
-    <main class="hero-section">
-      <h1>Transformasi Bisnis Anda dengan Desain Modern & Strategi Digital</h1>
-      <p>
-        Kami menyediakan layanan Web Design, UI/UX, Front-End Development, dan
-        Social Media Marketing.
-      </p>
-      <a href="portfolio.html" class="btn">Lihat Karya Kami</a>
-    </main>
+    <!-- GAMBAR HIASAN -->
+    <div class="batas">
+      <div class="thropy">
+        <img src="asset/images/component.svg" alt="" />
+      </div>
+    </div>
 
-    <footer>
-      <p>&copy; 2025 PixelNet Studio</p>
-    </footer>
+    <!-- ABOUT LINE -->
+    <div class="line"><h2>About</h2></div>
+
+    <!-- INFORMATION GRAFIC -->
+    <div class="form-card">
+      <div class="card">
+        <i class="fa-solid fa-code"></i>
+        <h4>Web Design</h4>
+        <p>Buat bisnis mu modern dengan UI/UX terbaru</p>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-image"></i>
+        <h4>Sosmed Marketing</h4>
+        <p>buat sosial media bisnis mu lebih keren, dan dinamis</p>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-paintbrush"></i>
+        <h4>Pamflet produk</h4>
+        <p>buat foto produk mu lebih menarik dan dikenal para customer</p>
+      </div>
+    </div>
+    <my-footer></my-footer>
   </body>
+  <script src="asset/js/header.js"></script>
+  <script src="asset/js/footer.js"></script>
 </html>
