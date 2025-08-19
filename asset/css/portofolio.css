@@ -76,7 +76,7 @@ body {
   align-items: center;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   z-index: 1000; /* biar nggak ketimpa elemen lain */
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .whatsapp-float:hover {

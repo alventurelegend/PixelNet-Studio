@@ -59,6 +59,11 @@ function displayEvent(data) {
   overflow: hidden;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 1s ease-in-out;
+}
+
+.product-card :hover {
+  transform: scale(1.3);
 }
 
 .card-image {
