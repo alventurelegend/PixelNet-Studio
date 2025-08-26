@@ -1,13 +1,21 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Data dummy
   const dummyData = [
-    { id: 1, title: "Online Shop", gambar: "../asset/images/product1.png" },
+    { id: 1, title: "Web Online", gambar: "../asset/images/product1.png" },
     { id: 2, title: "ID Card Bisnis", gambar: "../asset/images/product2.svg" },
     { id: 3, title: "Pamflet Produk", gambar: "../asset/images/product3.svg" },
     { id: 4, title: "Paket Merdeka", gambar: "../asset/images/product4.svg" },
-    { id: 5, title: "Design Lanyard", gambar: "../asset/images/product5.png" },
+    { id: 5, title: "Pamflet Produk", gambar: "../asset/images/product8.jpeg" },
     { id: 3, title: "Pamflet Produk", gambar: "../asset/images/product6.svg" },
-    { id: 4, title: "ID Card Karyawan", gambar: "../asset/images/product7.svg" },
+    {
+      id: 4,
+      title: "ID Card Karyawan",
+      gambar: "../asset/images/product7.svg",
+    },
+    { id: 5, title: "Design Lanyard", gambar: "../asset/images/product5.png" },
+    { id: 7, title: "Design Box", gambar: "../asset/images/product9.png" },
+    { id: 5, title: "Kaos Karyawan", gambar: "../asset/images/product10.png" },
+    { id: 5, title: "Desain Gerobak", gambar: "../asset/images/product11.png" },
   ];
 
   displayEvent(dummyData);
