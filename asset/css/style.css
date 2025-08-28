@@ -125,7 +125,7 @@ header {
 .title {
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight:600;
+  font-weight: 600;
   font-style: normal;
   font-size: clamp(1.5rem, 5.5vw, 3.5rem);
   display: flex;
@@ -195,13 +195,12 @@ header {
   font-size: 3em;
 }
 
-.thropy img{
+.thropy img {
   width: 30%;
   display: inline-block;
   margin-right: 50px;
   margin-bottom: 0;
 }
-
 
 .line {
   width: 100%;
@@ -257,7 +256,6 @@ header {
   max-width: 60%;
   margin: 0 auto;
 }
-
 
 @media (max-width: 1023px) {
   body {
@@ -326,7 +324,7 @@ header {
     gap: 2.5rem;
     padding: 0 1.5rem;
     margin-bottom: -42px;
-    margin-left: -250px;
+    margin: auto;
   }
 
   .medal,
@@ -436,10 +434,26 @@ header {
   }
 
   .hero {
-    margin-top: 4rem;
+    width: 100%;
+    margin-top: 3rem;
+    max-width: 100%;
     padding: 2rem 1rem;
-    min-height: 70vh;
-    max-width: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .hero .title {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero img {
+    max-width: 70%;
+    height: auto;
+    margin: 1rem auto 0;
+    display: block;
   }
 
   .name {
@@ -455,14 +469,6 @@ header {
   .name p {
     width: 100%;
     font-size: clamp(0.85rem, 3.5vw, 1rem);
-  }
-
-  .hero img {
-    width: 100px;
-    max-width: 200px;
-    margin-top: auto;
-    margin-right: 0;
-    margin-bottom: -421px;
   }
 
   .batas {
@@ -518,7 +524,7 @@ header {
 
   .card {
     width: 95%;
-    max-width: 280px;
+    max-width: 250px;
     margin-top: 1.5rem;
   }
 

@@ -164,7 +164,7 @@ class Myheader extends HTMLElement {
       </style>
       <header id="main-header">
         <div class="logo">
-          <img src="asset/images/icon.png" alt="logo" width="100px" />
+          <img src="asset/images/icon.webp" alt="logo" width="100px" />
           <div class="title">
             <h4>PixelNet</h4>
             <h3>Studio</h3>
