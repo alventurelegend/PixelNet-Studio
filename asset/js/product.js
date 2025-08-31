@@ -28,7 +28,11 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Design ID Card Karyawan",
       gambar: "../asset/images/product7.webp",
     },
-    { id: 8, title: "Design Website Static", gambar: "../asset/images/product1.webp" },
+    {
+      id: 8,
+      title: "Design Website Static",
+      gambar: "../asset/images/product1.webp",
+    },
     { id: 9, title: "Design Box", gambar: "../asset/images/product9.webp" },
     {
       id: 10,
@@ -40,10 +44,15 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Desain Gerobak",
       gambar: "../asset/images/product11.webp",
     },
-     {
+    {
       id: 12,
       title: "Desain Id Card",
       gambar: "../asset/images/product16.webp",
+    },
+    {
+      id: 13,
+      title: "Desain & Cetak MMT",
+      gambar: "../asset/images/product17.webp",
     },
   ];
 
