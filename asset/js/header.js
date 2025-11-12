@@ -190,7 +190,7 @@ class Myheader extends HTMLElement {
     });
     if (btnPorto) {
       btnPorto.addEventListener("click", () => {
-        window.location.href = "../../public/portofolio.html";
+        window.location.href = "../../public/portofolio.htmljjj";
       });
     }
     if (btnContacs) {

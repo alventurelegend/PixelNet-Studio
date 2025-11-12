@@ -1,39 +1,40 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Data dummy
   const dummyData = [
-    { id: 1, title: "Price ID Card", gambar: "../asset/images/product14.webp" },
+    { id: 1, 
+      title: "Design Lanyard SMANSUK", 
+      gambar: "../asset/images/porto01.webp" },
     {
       id: 2,
-      title: "Design ID Card PVC",
-      gambar: "../asset/images/product13.webp",
+      title: "Design Lanyard PMR Twosra",
+      gambar: "../asset/images/porto02.webp",
     },
     {
       id: 3,
-      title: "Price Harga Lanyard",
-      gambar: "../asset/images/product12.webp",
+      title: "Cue MC Osis SMK PGRI Sragen",
+      gambar: "../asset/images/porto03.webp",
     },
-    { id: 4, title: "Paket Merdeka", gambar: "../asset/images/product4.webp" },
+    { id: 4, 
+      title: "Design Lanyard Rohis", 
+      gambar: "../asset/images/product15.webp" },
     {
       id: 5,
-      title: "Design Produk Lanyard",
-      gambar: "../asset/images/product15.webp",
+      title: "Price Produk ID Card",
+      gambar: "../asset/images/porto04.webp",
     },
     {
       id: 6,
-      title: "Design Pamflet Produk",
-      gambar: "../asset/images/product6.webp",
-    },
-    {
-      id: 7,
-      title: "Design ID Card Karyawan",
-      gambar: "../asset/images/product7.webp",
+      title: "Price Produk Lanyard",
+      gambar: "../asset/images/porto05.webp",
     },
     {
       id: 8,
       title: "Design Website Static",
-      gambar: "../asset/images/product1.webp",
+      gambar: "../asset/images/product17.webp",
     },
-    { id: 9, title: "Design Box", gambar: "../asset/images/product9.webp" },
+    { id: 9, 
+      title: "Design Box", 
+      gambar: "../asset/images/product9.webp" },
     {
       id: 10,
       title: "Kaos Karyawan",
@@ -45,14 +46,9 @@ document.addEventListener("DOMContentLoaded", () => {
       gambar: "../asset/images/product11.webp",
     },
     {
-      id: 12,
-      title: "Desain Id Card",
-      gambar: "../asset/images/product16.webp",
-    },
-    {
       id: 13,
       title: "Desain & Cetak MMT",
-      gambar: "../asset/images/product17.webp",
+      gambar: "../asset/images/product1.webp",
     },
   ];
 
@@ -85,6 +81,7 @@ function displayEvent(data) {
     card.innerHTML = `
     <style>
     .grid-container {
+    margin-top: 3rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 20px;
@@ -102,10 +99,6 @@ function displayEvent(data) {
   transition: transform 1s ease-in-out;
 }
 
-.product-card :hover {
-  transform: scale(1.3);
-}
-
 .card-image {
   background: #ffffffff;
   height: 150px;
@@ -118,8 +111,8 @@ function displayEvent(data) {
 
 
 .card-image img {
-  max-width: 100%;
-  max-height: 100%;
+ height: 150px;
+  width: 140px;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -127,10 +120,12 @@ function displayEvent(data) {
 }
 
 .card-footer {
+  height: 50px;
   background: #d3b700ff;
   padding: 8px;
   margin-top: 5px;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .product-name {
