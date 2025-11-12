@@ -97,6 +97,7 @@ function displayEvent(data) {
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
+  align-items: center;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   transition: transform 1s ease-in-out;
 }
@@ -107,17 +108,21 @@ function displayEvent(data) {
 
 .card-image {
   background: #ffffffff;
-  height: 140px;
-  width: 120px;
+  height: 150px;
+  width: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 
 
 .card-image img {
   max-width: 100%;
   max-height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
   border-radius: 5px;
 }
 
